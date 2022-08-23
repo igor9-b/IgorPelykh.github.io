@@ -1,0 +1,35 @@
+{
+    "APPLICATION": {
+        "PAGE_TITLE": "Установка",
+        "SET_LANGUAGE_LABEL": "Выбор языка",
+        "BUTTON": {
+            "NEXT": "Продолжить",
+            "RETRY": "Повторить"
+        },
+        "ERROR_MESSAGE": {
+            "BROKEN_RESPONSE": "Получен некорректный ответ от сервера",
+            "PHP_VERSION": "Текущая версия PHP не поддерживается. Требования шаблонов: PHP 7.0, 7.1, 7.2, 7.3 или 7.4.",
+            "PHP_EXTENSIONS": "Расширения PHP <strong>{{ items }}</strong> недоступны. Пожалуйста, проверьте конфигурацию сервера. Убедитесь, что расширения включены.",
+            "PHP_FUNCTIONS": "PHP функции <strong>{{ items }}</strong> не существуют.",
+            "PHP_CLASSES": "PHP классы <strong>{{ items }}</strong> не существуют.",
+            "PHP_SETTINGS": "Необходимо изменить следующие PHP настройки <strong>{{ items }}</strong>.",
+            "DISK_RESOURCES": "Ресурсы диска <strong>{{ items }}</strong> недоступны для записи. Укажите необходимые права для следующих ресурсов.",
+            "NETWORK_RESOURCES": "Не удается подключиться к необходимым сетевым ресурсам.",
+            "RESOURCE_RETRY": "Повторите попытку или свяжитесь с нашей службой поддержки.",
+            "CONTACT_SUPPORT_TEAM": "Пожалуйста, свяжитесь с нашей службой технической поддержки, используя данную <a href='https://support.motocms.com/hc/ru/requests/new' target='_blank'>ссылку</a> и они предоставят Вам решение проблемы."
+        },
+        "LICENSE_AGREEMENT_TEXT": "Устанавливая это приложение, вы подтверждаете тот факт, что ознакомились с <a href='https://www.motocms.com/ru/privacy/' target='_blank'>Политикой конфиденциальности</a> и <a href='https://www.motocms.com/ru/terms/' target='_blank'>Лицензионным соглашением</a>.",
+        "I_AGREE_LABEL": "Я согласен",
+        "TESTING_SERVER_REQUIREMENTS_HEADING": "Проверка сервера",
+        "TESTING_SERVER_REQUIREMENTS_TEXT": "Пожалуйста подождите. Идет процесс тестирования сервера.",
+        "ERRORS_HEADING": "Ошибки",
+        "FILES_DOWNLOADING_LABEL": "Загрузка файлов",
+        "FILES_PREPARING_TEXT": "Подготовка файлов",
+        "LOADING_TEXT": "Идет загрузка...",
+        "RESOURCE_TYPES": {
+            "ENGINE": "Панель управления",
+            "THEME": "Тема <strong>{{ item }}</strong>",
+            "PLUGIN": "Плагин <strong>{{ item }}</strong>"
+        }
+    }
+}
